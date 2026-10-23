@@ -134,3 +134,10 @@ El modelo `yolov5su.pt` está pre-entrenado en el dataset **COCO** y detecta 80 
 ## 📄 Licencia
 
 MIT License — libre para usar, modificar y distribuir.
+
+
+## Interfaz Aurora
+
+[Guía visual](docs/guia-visual-aurora.md) · [Ficha de la experiencia](docs/EXPERIENCIA.md) · [Aplicación](https://yolov5-jpqn7hy6ah3tav84phcifb.streamlit.app/)
+
+La personalización conserva el propósito del ejercicio de clase. Los componentes compartidos se documentan en [AURORA.md](AURORA.md).

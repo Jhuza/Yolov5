@@ -1,0 +1,18 @@
+{
+  "slug": "Yolov5",
+  "entry": "app.py",
+  "title": "Detección de objetos",
+  "category": "Imagen",
+  "headline": "Una escena.",
+  "accent": "Objetos a la vista.",
+  "description": "Localiza objetos de una fotografía y presenta sus detecciones.",
+  "input": "Fotografía de cámara; umbrales de confianza e IoU.",
+  "output": "Imagen anotada, tabla por categoría y gráfico de detecciones.",
+  "steps": "Ajusta los umbrales en el panel lateral y toma una foto. Compara las cajas con la tabla de resultados.",
+  "technology": "Ultralytics · YOLOv5su",
+  "limits": "La confianza del modelo no garantiza acierto. Las clases disponibles dependen del modelo preentrenado.",
+  "image": "txt_to_audio.png",
+  "url": "https://yolov5-jpqn7hy6ah3tav84phcifb.streamlit.app/",
+  "repo": "https://github.com/Jhuza/Yolov5",
+  "kind": "vision"
+}

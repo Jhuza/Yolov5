@@ -5,11 +5,6 @@ import numpy as np
 import pandas as pd
 import torch
 
-st.set_page_config(
-    page_title="Detección de Objetos en Tiempo Real",
-    page_icon="🔍",
-    layout="wide"
-)
 
 @st.cache_resource
 def load_model():
@@ -21,7 +16,9 @@ def load_model():
         st.error(f"❌ Error al cargar el modelo: {str(e)}")
         return None
 
-st.title("🔍 Detección de Objetos en Imágenes")
+from aurora import app_header, footer
+app_header()
+
 st.markdown("Esta aplicación utiliza YOLOv5 para detectar objetos en imágenes capturadas con tu cámara.")
 
 with st.spinner("Cargando modelo YOLOv5..."):
@@ -105,3 +102,6 @@ else:
 
 st.markdown("---")
 st.caption("**Acerca de la aplicación**: Detección de objetos con YOLOv5 + Streamlit + PyTorch.")
+
+
+footer("TEXTO / IMAGEN / VOZ / INTERACCIÓN")
